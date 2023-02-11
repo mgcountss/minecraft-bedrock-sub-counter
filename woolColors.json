@@ -1,0 +1,954 @@
+[
+    {
+        "name": "stone",
+        "rgb": "129, 129, 129"
+    },
+    {
+        "name": "dirt",
+        "rgb": "122, 86, 59"
+    },
+    {
+        "name": "concrete 14",
+        "rgb": "139, 32, 32"
+    },
+    {
+        "name": "warped_nylium",
+        "rgb": "36, 122, 107"
+    },
+    {
+        "name": "cobblestone",
+        "rgb": "119, 119, 119"
+    },
+    {
+        "name": "bedrock",
+        "rgb": "76, 76, 76"
+    },
+    {
+        "name": "gold_ore",
+        "rgb": "135, 119, 86"
+    },
+    {
+        "name": "deepslate_gold_ore",
+        "rgb": "92, 76, 54"
+    },
+    {
+        "name": "iron_ore",
+        "rgb": "126, 118, 111"
+    },
+    {
+        "name": "deepslate_iron_ore",
+        "rgb": "120, 109, 102"
+    },
+    {
+        "name": "coal_ore",
+        "rgb": "97, 97, 96"
+    },
+    {
+        "name": "deepslate_coal_ore",
+        "rgb": "60, 60, 62"
+    },
+    {
+        "name": "copper_ore",
+        "rgb": "109, 109, 100"
+    },
+    {
+        "name": "deepslate_copper_ore",
+        "rgb": "105, 96, 86"
+    },
+    {
+        "name": "log 4",
+        "rgb": "114, 89, 52"
+    },
+    {
+        "name": "log 1",
+        "rgb": "57, 37, 17"
+    },
+    {
+        "name": "log 2",
+        "rgb": "206, 203, 200"
+    },
+    {
+        "name": "log 3",
+        "rgb": "82, 65, 24"
+    },
+    {
+        "name": "log2",
+        "rgb": "102, 95, 86"
+    },
+    {
+        "name": "log2 1",
+        "rgb": "58, 44, 25"
+    },
+    {
+        "name": "crimson_stem",
+        "rgb": "87, 27, 34"
+    },
+    {
+        "name": "warped_stem",
+        "rgb": "61, 50, 71"
+    },
+    {
+        "name": "stripped_oak_log",
+        "rgb": "184, 151, 92"
+    },
+    {
+        "name": "stripped_spruce_log",
+        "rgb": "116, 89, 52"
+    },
+    {
+        "name": "stripped_birch_log",
+        "rgb": "199, 179, 121"
+    },
+    {
+        "name": "stripped_jungle_log",
+        "rgb": "174, 133, 88"
+    },
+    {
+        "name": "stripped_acacia_log",
+        "rgb": "177, 91, 59"
+    },
+    {
+        "name": "stripped_dark_oak_log",
+        "rgb": "100, 78, 50"
+    },
+    {
+        "name": "stripped_crimson_stem",
+        "rgb": "143, 60, 94"
+    },
+    {
+        "name": "stripped_warped_stem",
+        "rgb": "61, 156, 154"
+    },
+    {
+        "name": "sponge",
+        "rgb": "194, 192, 72"
+    },
+    {
+        "name": "sponge 1",
+        "rgb": "157, 170, 68"
+    },
+    {
+        "name": "lapis_ore",
+        "rgb": "74, 91, 124"
+    },
+    {
+        "name": "deepslate_lapis_ore",
+        "rgb": "62, 80, 117"
+    },
+    {
+        "name": "lapis_block",
+        "rgb": "30, 67, 134"
+    },
+    {
+        "name": "sandstone",
+        "rgb": "220, 211, 168"
+    },
+    {
+        "name": "wool 0",
+        "rgb": "227, 230, 230"
+    },
+    {
+        "name": "wool 1",
+        "rgb": "235, 113, 17"
+    },
+    {
+        "name": "wool 2",
+        "rgb": "184, 65, 174"
+    },
+    {
+        "name": "wool 3",
+        "rgb": "55, 170, 212"
+    },
+    {
+        "name": "wool 4",
+        "rgb": "243, 192, 37"
+    },
+    {
+        "name": "wool 5",
+        "rgb": "108, 180, 24"
+    },
+    {
+        "name": "wool 6",
+        "rgb": "232, 132, 164"
+    },
+    {
+        "name": "wool 7",
+        "rgb": "61, 66, 69"
+    },
+    {
+        "name": "wool 8",
+        "rgb": "138, 138, 131"
+    },
+    {
+        "name": "wool 9",
+        "rgb": "21, 132, 141"
+    },
+    {
+        "name": "wool 10",
+        "rgb": "116, 39, 166"
+    },
+    {
+        "name": "wool 11",
+        "rgb": "51, 54, 153"
+    },
+    {
+        "name": "wool 12",
+        "rgb": "110, 69, 38"
+    },
+    {
+        "name": "wool 13",
+        "rgb": "81, 105, 27"
+    },
+    {
+        "name": "wool 14",
+        "rgb": "155, 37, 33"
+    },
+    {
+        "name": "wool 15",
+        "rgb": "18, 19, 23"
+    },
+    {
+        "name": "gold_block",
+        "rgb": "227, 195, 57"
+    },
+    {
+        "name": "iron_block",
+        "rgb": "223, 223, 223"
+    },
+    {
+        "name": "quartz_block 3",
+        "rgb": "231, 224, 217"
+    },
+    {
+        "name": "red_sandstone 3",
+        "rgb": "178, 96, 30"
+    },
+    {
+        "name": "smooth_stone",
+        "rgb": "163, 163, 163"
+    },
+    {
+        "name": "brick_block",
+        "rgb": "159, 103, 88"
+    },
+    {
+        "name": "mossy_cobblestone",
+        "rgb": "107, 117, 91"
+    },
+    {
+        "name": "obsidian",
+        "rgb": "23, 17, 37"
+    },
+    {
+        "name": "purpur_block",
+        "rgb": "158, 114, 157"
+    },
+    {
+        "name": "diamond_ore",
+        "rgb": "104, 147, 145"
+    },
+    {
+        "name": "deepslate_diamond_ore",
+        "rgb": "71, 118, 116"
+    },
+    {
+        "name": "diamond_block",
+        "rgb": "95, 222, 209"
+    },
+    {
+        "name": "redstone_ore",
+        "rgb": "158, 76, 74"
+    },
+    {
+        "name": "deepslate_redstone_ore",
+        "rgb": "107, 57, 57"
+    },
+    {
+        "name": "snow",
+        "rgb": "247, 251, 251"
+    },
+    {
+        "name": "clay",
+        "rgb": "157, 163, 176"
+    },
+    {
+        "name": "pumpkin",
+        "rgb": "186, 107, 19"
+    },
+    {
+        "name": "netherrack",
+        "rgb": "94, 35, 35"
+    },
+    {
+        "name": "soul_soil",
+        "rgb": "82, 62, 50"
+    },
+    {
+        "name": "basalt",
+        "rgb": "85, 86, 91"
+    },
+    {
+        "name": "polished_basalt",
+        "rgb": "106, 105, 106"
+    },
+    {
+        "name": "glowstone",
+        "rgb": "171, 129, 89"
+    },
+    {
+        "name": "stonebrick",
+        "rgb": "111, 110, 111"
+    },
+    {
+        "name": "stonebrick 1",
+        "rgb": "107, 112, 101"
+    },
+    {
+        "name": "stonebrick 2",
+        "rgb": "105, 105, 105"
+    },
+    {
+        "name": "stonebrick 3",
+        "rgb": "124, 123, 124"
+    },
+    {
+        "name": "melon_block",
+        "rgb": "101, 137, 30"
+    },
+    {
+        "name": "nether_brick",
+        "rgb": "43, 21, 25"
+    },
+    {
+        "name": "cracked_nether_bricks",
+        "rgb": "35, 17, 20"
+    },
+    {
+        "name": "chiseled_nether_bricks",
+        "rgb": "53, 25, 31"
+    },
+    {
+        "name": "end_stone",
+        "rgb": "216, 219, 157"
+    },
+    {
+        "name": "end_bricks",
+        "rgb": "202, 204, 149"
+    },
+    {
+        "name": "emerald_ore",
+        "rgb": "102, 128, 106"
+    },
+    {
+        "name": "deepslate_emerald_ore",
+        "rgb": "72, 98, 80"
+    },
+    {
+        "name": "emerald_block",
+        "rgb": "35, 194, 89"
+    },
+    {
+        "name": "quartz_ore",
+        "rgb": "105, 59, 56"
+    },
+    {
+        "name": "nether_gold_ore",
+        "rgb": "138, 82, 47"
+    },
+    {
+        "name": "quartz_block 1",
+        "rgb": "230, 224, 216"
+    },
+    {
+        "name": "quartz_block",
+        "rgb": "231, 225, 218"
+    },
+    {
+        "name": "quartz_bricks",
+        "rgb": "228, 222, 213"
+    },
+    {
+        "name": "quartz_block 2",
+        "rgb": "232, 227, 222"
+    },
+    {
+        "name": "white_glazed_terracotta",
+        "rgb": "205, 174, 158"
+    },
+    {
+        "name": "orange_glazed_terracotta",
+        "rgb": "158, 81, 36"
+    },
+    {
+        "name": "magenta_glazed_terracotta",
+        "rgb": "146, 85, 106"
+    },
+    {
+        "name": "light_blue_glazed_terracotta",
+        "rgb": "111, 106, 134"
+    },
+    {
+        "name": "yellow_glazed_terracotta",
+        "rgb": "182, 129, 34"
+    },
+    {
+        "name": "lime_glazed_terracotta",
+        "rgb": "101, 115, 51"
+    },
+    {
+        "name": "pink_glazed_terracotta",
+        "rgb": "158, 75, 76"
+    },
+    {
+        "name": "gray_glazed_terracotta",
+        "rgb": "56, 41, 34"
+    },
+    {
+        "name": "silver_glazed_terracotta",
+        "rgb": "132, 104, 95"
+    },
+    {
+        "name": "cyan_glazed_terracotta",
+        "rgb": "84, 88, 88"
+    },
+    {
+        "name": "purple_glazed_terracotta",
+        "rgb": "115, 69, 83"
+    },
+    {
+        "name": "blue_glazed_terracotta",
+        "rgb": "73, 58, 89"
+    },
+    {
+        "name": "brown_glazed_terracotta",
+        "rgb": "75, 49, 34"
+    },
+    {
+        "name": "green_glazed_terracotta",
+        "rgb": "74, 80, 41"
+    },
+    {
+        "name": "red_glazed_terracotta",
+        "rgb": "140, 59, 46"
+    },
+    {
+        "name": "black_glazed_terracotta",
+        "rgb": "36, 22, 16"
+    },
+    {
+        "name": "hay_block",
+        "rgb": "162, 136, 36"
+    },
+    {
+        "name": "hardened_clay",
+        "rgb": "149, 91, 66"
+    },
+    {
+        "name": "coal_block",
+        "rgb": "20, 20, 20"
+    },
+    {
+        "name": "packed_ice",
+        "rgb": "137, 176, 247"
+    },
+    {
+        "name": "prismarine",
+        "rgb": "100, 163, 146"
+    },
+    {
+        "name": "prismarine 2",
+        "rgb": "93, 168, 156"
+    },
+    {
+        "name": "prismarine 1",
+        "rgb": "50, 89, 74"
+    },
+    {
+        "name": "sea_lantern",
+        "rgb": "221, 230, 222"
+    },
+    {
+        "name": "red_sandstone",
+        "rgb": "181, 97, 32"
+    },
+    {
+        "name": "magma",
+        "rgb": "155, 76, 37"
+    },
+    {
+        "name": "nether_wart_block",
+        "rgb": "115, 3, 1"
+    },
+    {
+        "name": "red_nether_brick",
+        "rgb": "64, 5, 7"
+    },
+    {
+        "name": "bone_block",
+        "rgb": "225, 222, 205"
+    },
+    {
+        "name": "concrete 0",
+        "rgb": "203, 209, 210"
+    },
+    {
+        "name": "concrete 1",
+        "rgb": "220, 95, 0"
+    },
+    {
+        "name": "concrete 2",
+        "rgb": "165, 47, 155"
+    },
+    {
+        "name": "concrete 3",
+        "rgb": "34, 133, 194"
+    },
+    {
+        "name": "concrete 4",
+        "rgb": "235, 172, 21"
+    },
+    {
+        "name": "concrete 5",
+        "rgb": "92, 165, 23"
+    },
+    {
+        "name": "concrete 6",
+        "rgb": "209, 98, 139"
+    },
+    {
+        "name": "concrete 7",
+        "rgb": "53, 56, 60"
+    },
+    {
+        "name": "concrete 8",
+        "rgb": "123, 123, 113"
+    },
+    {
+        "name": "concrete 9",
+        "rgb": "21, 116, 132"
+    },
+    {
+        "name": "concrete 10",
+        "rgb": "98, 30, 153"
+    },
+    {
+        "name": "concrete 11",
+        "rgb": "43, 45, 140"
+    },
+    {
+        "name": "concrete 12",
+        "rgb": "94, 58, 30"
+    },
+    {
+        "name": "concrete 13",
+        "rgb": "72, 89, 35"
+    },
+    {
+        "name": "concrete 15",
+        "rgb": "8, 10, 15"
+    },
+    {
+        "name": "blue_ice",
+        "rgb": "114, 166, 250"
+    },
+    {
+        "name": "dried_kelp_block",
+        "rgb": "73, 77, 59"
+    },
+    {
+        "name": "netherite_block",
+        "rgb": "60, 56, 58"
+    },
+    {
+        "name": "ancient_debris",
+        "rgb": "85, 57, 49"
+    },
+    {
+        "name": "crying_obsidian",
+        "rgb": "48, 13, 89"
+    },
+    {
+        "name": "blackstone",
+        "rgb": "45, 39, 47"
+    },
+    {
+        "name": "gilded_blackstone",
+        "rgb": "70, 53, 34"
+    },
+    {
+        "name": "polished_blackstone",
+        "rgb": "51, 46, 52"
+    },
+    {
+        "name": "chiseled_polished_blackstone",
+        "rgb": "63, 59, 70"
+    },
+    {
+        "name": "polished_blackstone_bricks",
+        "rgb": "34, 27, 30"
+    },
+    {
+        "name": "cracked_polished_blackstone_bricks",
+        "rgb": "31, 24, 23"
+    },
+    {
+        "name": "crafting_table",
+        "rgb": "130, 81, 47"
+    },
+    {
+        "name": "furnace",
+        "rgb": "108, 107, 107"
+    },
+    {
+        "name": "jukebox",
+        "rgb": "83, 58, 41"
+    },
+    {
+        "name": "brown_mushroom_block",
+        "rgb": "145, 109, 79"
+    },
+    {
+        "name": "red_mushroom_block",
+        "rgb": "197, 43, 41"
+    },
+    {
+        "name": "mushroom_stem",
+        "rgb": "201, 194, 184"
+    },
+    {
+        "name": "slime",
+        "rgb": "109, 178, 89"
+    },
+    {
+        "name": "shulker_box 0",
+        "rgb": "185, 189, 189"
+    },
+    {
+        "name": "shulker_box 1",
+        "rgb": "198, 92, 11"
+    },
+    {
+        "name": "shulker_box 2",
+        "rgb": "149, 49, 140"
+    },
+    {
+        "name": "shulker_box 3",
+        "rgb": "46, 143, 177"
+    },
+    {
+        "name": "shulker_box 4",
+        "rgb": "205, 159, 27"
+    },
+    {
+        "name": "shulker_box 5",
+        "rgb": "89, 150, 19"
+    },
+    {
+        "name": "shulker_box 6",
+        "rgb": "194, 108, 135"
+    },
+    {
+        "name": "shulker_box 7",
+        "rgb": "48, 52, 54"
+    },
+    {
+        "name": "shulker_box 8",
+        "rgb": "110, 110, 103"
+    },
+    {
+        "name": "shulker_box 9",
+        "rgb": "17, 106, 116"
+    },
+    {
+        "name": "shulker_box 10",
+        "rgb": "91, 29, 134"
+    },
+    {
+        "name": "shulker_box 11",
+        "rgb": "40, 41, 123"
+    },
+    {
+        "name": "shulker_box 12",
+        "rgb": "90, 56, 31"
+    },
+    {
+        "name": "shulker_box 13",
+        "rgb": "66, 85, 24"
+    },
+    {
+        "name": "shulker_box 14",
+        "rgb": "124, 28, 27"
+    },
+    {
+        "name": "shulker_box 15",
+        "rgb": "22, 22, 26"
+    },
+    {
+        "name": "stained_hardened_clay 0",
+        "rgb": "169, 203, 210"
+    },
+    {
+        "name": "stained_hardened_clay 1",
+        "rgb": "196, 126, 53"
+    },
+    {
+        "name": "stained_hardened_clay 2",
+        "rgb": "194, 83, 179"
+    },
+    {
+        "name": "stained_hardened_clay 3",
+        "rgb": "90, 151, 199"
+    },
+    {
+        "name": "stained_hardened_clay 4",
+        "rgb": "231, 190, 92"
+    },
+    {
+        "name": "stained_hardened_clay 5",
+        "rgb": "157, 183, 36"
+    },
+    {
+        "name": "stained_hardened_clay 6",
+        "rgb": "235, 155, 182"
+    },
+    {
+        "name": "stained_hardened_clay 7",
+        "rgb": "68, 72, 75"
+    },
+    {
+        "name": "stained_hardened_clay 8",
+        "rgb": "157, 172, 174"
+    },
+    {
+        "name": "stained_hardened_clay 9",
+        "rgb": "42, 98, 101"
+    },
+    {
+        "name": "stained_hardened_clay 10",
+        "rgb": "105, 55, 143"
+    },
+    {
+        "name": "stained_hardened_clay 11",
+        "rgb": "60, 84, 179"
+    },
+    {
+        "name": "stained_hardened_clay 12",
+        "rgb": "144, 97, 64"
+    },
+    {
+        "name": "stained_hardened_clay 13",
+        "rgb": "82, 106, 30"
+    },
+    {
+        "name": "stained_hardened_clay 14",
+        "rgb": "175, 53, 48"
+    },
+    {
+        "name": "stained_hardened_clay 15",
+        "rgb": "85, 27, 29"
+    },
+    {
+        "name": "loom",
+        "rgb": "153, 132, 108"
+    },
+    {
+        "name": "barrel",
+        "rgb": "104, 79, 50"
+    },
+    {
+        "name": "blast_furnace",
+        "rgb": "74, 73, 75"
+    },
+    {
+        "name": "cartography_table",
+        "rgb": "70, 45, 21"
+    },
+    {
+        "name": "shroomlight",
+        "rgb": "241, 155, 81"
+    },
+    {
+        "name": "bee_nest",
+        "rgb": "182, 138, 67"
+    },
+    {
+        "name": "beehive",
+        "rgb": "181, 146, 92"
+    },
+    {
+        "name": "honeycomb_block",
+        "rgb": "222, 137, 20"
+    },
+    {
+        "name": "lodestone",
+        "rgb": "135, 135, 136"
+    },
+    {
+        "name": "respawn_anchor",
+        "rgb": "20, 11, 28"
+    },
+    {
+        "name": "noteblock",
+        "rgb": "101, 61, 40"
+    },
+    {
+        "name": "redstone_lamp",
+        "rgb": "112, 64, 34"
+    },
+    {
+        "name": "observer",
+        "rgb": "95, 95, 95"
+    },
+    {
+        "name": "redstone_block",
+        "rgb": "129, 15, 1"
+    },
+    {
+        "name": "target",
+        "rgb": "221, 164, 151"
+    },
+    {
+        "name": "deepslate",
+        "rgb": "75, 75, 78"
+    },
+    {
+        "name": "cobbled_deepslate",
+        "rgb": "72, 72, 75"
+    },
+    {
+        "name": "polished_deepslate",
+        "rgb": "68, 68, 68"
+    },
+    {
+        "name": "calcite",
+        "rgb": "196, 197, 192"
+    },
+    {
+        "name": "tuff",
+        "rgb": "100, 101, 96"
+    },
+    {
+        "name": "dripstone_block",
+        "rgb": "121, 96, 82"
+    },
+    {
+        "name": "rooted_dirt",
+        "rgb": "121, 85, 60"
+    },
+    {
+        "name": "raw_iron_block",
+        "rgb": "140, 114, 87"
+    },
+    {
+        "name": "raw_copper_block",
+        "rgb": "119, 92, 64"
+    },
+    {
+        "name": "raw_gold_block",
+        "rgb": "186, 135, 33"
+    },
+    {
+        "name": "amethyst_block",
+        "rgb": "103, 74, 156"
+    },
+    {
+        "name": "copper_block",
+        "rgb": "173, 97, 70"
+    },
+    {
+        "name": "netherite_block",
+        "rgb": "66, 62, 65"
+    },
+    {
+        "name": "exposed_copper",
+        "rgb": "141, 106, 87"
+    },
+    {
+        "name": "weathered_copper",
+        "rgb": "93, 141, 99"
+    },
+    {
+        "name": "oxidized_copper",
+        "rgb": "77, 157, 129"
+    },
+    {
+        "name": "cut_copper",
+        "rgb": "161, 88, 65"
+    },
+    {
+        "name": "exposed_cut_copper",
+        "rgb": "135, 107, 91"
+    },
+    {
+        "name": "weathered_cut_copper",
+        "rgb": "95, 117, 90"
+    },
+    {
+        "name": "oxidized_cut_copper",
+        "rgb": "64, 123, 103"
+    },
+    {
+        "name": "waxed_copper_block",
+        "rgb": "167, 93, 66"
+    },
+    {
+        "name": "waxed_exposed_copper",
+        "rgb": "144, 106, 88"
+    },
+    {
+        "name": "waxed_weathered_copper",
+        "rgb": "93, 140, 97"
+    },
+    {
+        "name": "waxed_oxidized_copper",
+        "rgb": "76, 154, 124"
+    },
+    {
+        "name": "waxed_cut_copper",
+        "rgb": "168, 93, 70"
+    },
+    {
+        "name": "waxed_exposed_cut_copper",
+        "rgb": "129, 112, 88"
+    },
+    {
+        "name": "waxed_weathered_cut_copper",
+        "rgb": "92, 137, 100"
+    },
+    {
+        "name": "waxed_oxidized_cut_copper",
+        "rgb": "70, 136, 113"
+    },
+    {
+        "name": "smooth_basalt",
+        "rgb": "61, 60, 67"
+    },
+    {
+        "name": "deepslate_bricks",
+        "rgb": "59, 59, 60"
+    },
+    {
+        "name": "cracked_deepslate_bricks",
+        "rgb": "39, 39, 40"
+    },
+    {
+        "name": "deepslate_tiles",
+        "rgb": "45, 45, 45"
+    },
+    {
+        "name": "cracked_deepslate_tiles",
+        "rgb": "45, 45, 46"
+    },
+    {
+        "name": "chiseled_deepslate",
+        "rgb": "47, 46, 47"
+    },
+    {
+        "name": "moss_block",
+        "rgb": "82, 97, 41"
+    },
+    {
+        "name": "honey_block",
+        "rgb": "213, 125, 11"
+    }
+]
