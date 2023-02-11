@@ -2,6 +2,7 @@
   "dependencies": {
     "jimp": "^0.16.2",
     "node-fetch": "^3.3.0",
+    "sharp": "^0.31.3",
     "uuid": "^9.0.0",
     "ws": "^8.12.0"
   }
