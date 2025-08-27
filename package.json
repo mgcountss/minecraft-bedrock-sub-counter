@@ -1,9 +1,42 @@
 {
+  "name": "minecraft-youtube-bot",
+  "version": "2.0.0",
+  "description": "A Minecraft bot that displays YouTube channel subscriber counts and profile images as pixel art",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "test": "echo \"No tests yet\" && exit 0",
+    "lint": "eslint .",
+    "setup": "node setup.js"
+  },
+  "keywords": [
+    "minecraft",
+    "youtube",
+    "bot",
+    "websocket",
+    "pixel-art",
+    "subscribers"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "jimp": "^0.16.2",
-    "node-fetch": "^3.3.0",
-    "sharp": "^0.31.3",
-    "uuid": "^9.0.0",
-    "ws": "^8.12.0"
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1",
+    "sharp": "^0.32.6",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/minecraft-youtube-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/minecraft-youtube-bot/issues"
   }
 }
