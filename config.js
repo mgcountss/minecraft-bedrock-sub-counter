@@ -9,6 +9,13 @@ module.exports = {
   commandDelay: 50, // ms between commands
   batchDelay: 100,  // ms between batched commands
   
+  // Live updates configuration
+  liveUpdates: {
+    enabled: false, // Can be toggled with !live command
+    interval: 2000, // Check every 2 seconds
+    maxDuration: 300000, // Stop after 5 minutes (300 seconds)
+  },
+  
   // Minecraft coordinates
   coordinates: {
     // Subscriber counter display area
@@ -57,6 +64,7 @@ module.exports = {
   
   // API endpoints
   api: {
-    youtubeCounter: 'https://mixerno.space/api/youtube-channel-counter/user/'
+    youtubeCounter: 'https://mixerno.space/api/youtube-channel-counter/user/',
+    youtubeSearch: 'https://mixerno.space/api/youtube-channel-counter/search/'
   }
 };

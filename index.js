@@ -17,6 +17,7 @@ class MinecraftYouTubeBot {
     this.wss = null;
     this.woolColors = null;
     this.connectedClients = new Set();
+    this.commandHandlers = new Map(); // Store command handlers for cleanup
   }
 
   /**
@@ -35,6 +36,7 @@ class MinecraftYouTubeBot {
       Logger.success(`Bot initialized successfully on port ${config.port}`);
       Logger.info(`Connect to Minecraft with: /connect localhost:${config.port}`);
       Logger.info(`Command prefix: ${config.commandPrefix}`);
+      Logger.info('Live updates: Available (use !live after displaying a channel)');
       
     } catch (error) {
       Logger.error('Failed to initialize bot', error);
@@ -92,6 +94,9 @@ class MinecraftYouTubeBot {
     const minecraftRenderer = new MinecraftRenderer(commandSystem);
     const commandHandler = new CommandHandler(commandSystem, imageProcessor, minecraftRenderer);
 
+    // Store command handler for cleanup
+    this.commandHandlers.set(socket, commandHandler);
+
     // Subscribe to player messages
     this.subscribeToPlayerMessages(socket);
 
@@ -103,6 +108,14 @@ class MinecraftYouTubeBot {
     // Handle disconnection
     socket.on('close', (code, reason) => {
       this.connectedClients.delete(socket);
+      
+      // Cleanup command handler
+      const handler = this.commandHandlers.get(socket);
+      if (handler) {
+        handler.cleanup();
+        this.commandHandlers.delete(socket);
+      }
+      
       Logger.warn(`Client disconnected: ${clientId} (Code: ${code}, Reason: ${reason})`);
       Logger.info(`Total connections: ${this.connectedClients.size}`);
     });
@@ -110,11 +123,19 @@ class MinecraftYouTubeBot {
     // Handle errors
     socket.on('error', (error) => {
       Logger.error(`Socket error for client ${clientId}`, error);
+      
+      // Cleanup on error
+      const handler = this.commandHandlers.get(socket);
+      if (handler) {
+        handler.cleanup();
+        this.commandHandlers.delete(socket);
+      }
     });
 
     // Send welcome message
     setTimeout(async () => {
       await commandSystem.say('🤖 YouTube Bot connected! Use !help for commands.');
+      await commandSystem.say('💡 New: Search channels with !search, live updates with !live!');
     }, 1000);
   }
 
@@ -171,6 +192,12 @@ class MinecraftYouTubeBot {
   async shutdown() {
     Logger.info('Shutting down bot...');
     
+    // Cleanup all command handlers (stops live updates)
+    for (const handler of this.commandHandlers.values()) {
+      handler.cleanup();
+    }
+    this.commandHandlers.clear();
+    
     if (this.wss) {
       // Close all client connections
       for (const socket of this.connectedClients) {
@@ -192,12 +219,36 @@ class MinecraftYouTubeBot {
    * Get bot statistics
    */
   getStats() {
+    const liveUpdatesActive = Array.from(this.commandHandlers.values())
+      .filter(handler => handler.liveUpdates?.enabled).length;
+    
     return {
       connections: this.connectedClients.size,
       woolColors: this.woolColors?.length || 0,
       uptime: process.uptime(),
-      memory: process.memoryUsage()
+      memory: process.memoryUsage(),
+      liveUpdatesActive: liveUpdatesActive
     };
+  }
+
+  /**
+   * Get all active live update sessions
+   */
+  getActiveLiveUpdates() {
+    const activeSessions = [];
+    
+    for (const handler of this.commandHandlers.values()) {
+      if (handler.liveUpdates?.enabled && handler.liveUpdates.channelData) {
+        activeSessions.push({
+          channelName: handler.liveUpdates.channelData.channelName,
+          channelId: handler.liveUpdates.channelData.channelId,
+          startTime: handler.liveUpdates.startTime,
+          lastCount: handler.liveUpdates.lastSubscriberCount
+        });
+      }
+    }
+    
+    return activeSessions;
   }
 }
 
@@ -219,7 +270,7 @@ process.on('SIGTERM', async () => {
 
 process.on('uncaughtException', (error) => {
   Logger.error('Uncaught exception', error);
-  process.exit(1);
+  bot.shutdown().then(() => process.exit(1));
 });
 
 process.on('unhandledRejection', (reason, promise) => {
